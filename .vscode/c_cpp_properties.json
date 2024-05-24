@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Wind32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/",
+                "${workspaceRoot}/CMSIS",
+                "${workspaceRoot}/Source/include",
+                "${workspaceRoot}/Source/portable/GCC/ARM_CM3",
+                "${workspaceRoot}/Common/include/",
+                "${workspaceRoot}/fs/bd",
+                "${workspaceRoot}/fs",
+            ],
+            "defines": [
+                "DEBUG=1",
+                "LWRB_DISABLE_ATOMIC",
+                "mainCREATE_SIMPLE_BLINKY_DEMO_ONLY=1"
+                // "mainCREATE_FULL_DEMO_ONLY=1"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/",
+                    "${workspaceRoot}/CMSIS",
+                    "${workspaceRoot}/Source/include",
+                    "${workspaceRoot}/Source/portable/GCC/ARM_CM3",
+                    "${workspaceRoot}/Common/Minimal/"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                // "/System/Library/Frameworks",
+                // "/Library/Frameworks"
+            ],
+            "compilerPath": "d:/App/arm-gnu-toolchain-12.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}

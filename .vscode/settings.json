@@ -1,0 +1,26 @@
+{
+  "files.associations": {
+    "console.h": "c",
+    "recmutex.h": "c",
+    "staticallocation.h": "c",
+    "blocktim.h": "c",
+    "abortdelay.h": "c",
+    "queueset.h": "c",
+    "dynamic.h": "c",
+    "timerdemo.h": "c",
+    "stdio.h": "c",
+    "cmsdk_cm3.h": "c",
+    "freertos.h": "c",
+    "types.h": "c",
+    "stdint.h": "c",
+    "cstdint": "c",
+    "uart.h": "c",
+    "stream_buffer.h": "c",
+    "core_cm3.h": "c",
+    "semphr.h": "c",
+    "slip.h": "c"
+  },
+  "files.watcherExclude": {
+    "**/target": true
+  }
+}
