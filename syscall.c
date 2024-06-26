@@ -107,7 +107,7 @@ int _write(__attribute__((unused)) int file,
            __attribute__((unused)) char * buf,
            int len )
 {
-    // Uart0Write(buf, len);
+    Uart0Write(buf, len);
     return len;
 }
 
